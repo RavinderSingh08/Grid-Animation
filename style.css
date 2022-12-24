@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.no-pad {
+  padding: 0 !important;
+}
+
+.heading {
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto 40px;
+}
+
+.main-outer .col-3 {
+  padding: 0;
+}
+
+.main-outer .box {
+  position: relative;
+  width: 50%;
+  background: #4eccff;
+  float: left;
+  background-size: cover !important;
+}
+
+@media only screen and (min-width: 767px) {
+  .main-outer .box {
+    width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+}
+
+.main-outer .box::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.main-outer .b-4 .service-expand {
+  background: url(//drytechindia.com/wp-content/themes/wp-store-child/css/../images/services/gums-and-hydrocolloids.jpg)
+    no-repeat center;
+  top: 0;
+  left: 0;
+}
+
+.service-expand {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  overflow: hidden;
+}
+
+.main-outer .box .service-title {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: all ease-in-out 0.4s;
+  -webkit-transition: all ease-in-out 0.4s;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-outer h4 {
+    font-size: 24px;
+    color: #fff;
+  }
+}
+
+.main-outer .box h4 {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 30px;
+  line-height: 24px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 767px) {
+  .main-outer .box h4 {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+
+  .main-outer .box h4 {
+    font-size: 18px;
+    padding: 25px 15px;
+    line-height: 28px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  font-family: "Droid Serif";
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.service-expand .more-content {
+  display: none;
+  width: 0;
+  overflow: hidden;
+}
+
+.main-outer p {
+  margin: 15px 0 50px;
+  color: #2e3235;
+  line-height: 26px;
+  font-size: 18px;
+}
+
+.service-expand h5,
+.service-expand p {
+  font-size: 15px;
+  color: #000;
+  display: none;
+  margin: 15px 0;
+}
+
+@media only screen and (min-width: 1250px) {
+  .service-expand p {
+    width: 470px;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .service-expand h5,
+  .service-expand p {
+    display: block;
+  }
+}
+
+.main-outer .b-1 .service-expand {
+  background: #86d1ef;
+  right: 0;
+  top: 0;
+}
+
+@media only screen and (min-width: 1250px) {
+  .service-expand {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .main-outer .b-1 .service-expand {
+    top: auto;
+    right: auto;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.main-outer .b-1 .icon {
+  background: url(//drytechindia.com/wp-content/themes/wp-store-child/css/../images/services/content-white.png)
+    center no-repeat;
+  background-size: auto;
+  background-size: 80px;
+}
+
+.service-expand .icon {
+  display: none;
+}
+
+.main-outer .icon {
+  width: 80px;
+  height: 70px;
+  margin: 0 auto 10px auto;
+}
+
+.main-outer .b-3::before,
+.main-outer .b-8::before,
+.main-outer .b-6::before,
+.main-outer .b-5::before {
+  padding-top: 50%;
+}
+
+@media only screen and (min-width: 767px) {
+  .main-outer .b-3::before, .main-outer .b-4::before {
+    padding-top: 200%;
+  }
+}
+
+
+
+.main-outer .b-3 .service-expand {
+  background: url(//drytechindia.com/wp-content/themes/wp-store-child/css/../images/services/nutritional-ingredients.jpg)
+    no-repeat center;
+
+  right: 0;
+  bottom: 0;
+}
+
+@media only screen and (min-width: 480px) {
+  .main-outer .b-3 .service-expand {
+    background-size: cover;
+  }
+}
+
+.main-outer .b-8 .service-expand {
+  background: url(//drytechindia.com/wp-content/themes/wp-store-child/css/../images/services/seasoning-ingredients.jpg)
+    no-repeat center;
+  left: 0;
+  top: 0;
+}
+
+.main-outer .b-6 .service-expand {
+  background: url(//drytechindia.com/wp-content/themes/wp-store-child/css/../images/services/creamers.jpg)
+    no-repeat 0 0px;
+  background-size: cover;
+  left: 0;
+  bottom: 0;
+}
+
+@media only screen and (min-width: 767px) {
+  .main-outer .b-6 .service-expand {
+    left: auto;
+    right: 0;
+    bottom: auto;
+    top: 0;
+  }
+}
+
+.main-outer .b-9 .service-expand {
+  background: url(//drytechindia.com/wp-content/themes/wp-store-child/css/../images/services/caseinates.jpg)
+    no-repeat center;
+  left: 0;
+  bottom: 0;
+}
+
+.main-outer .b-2 .service-expand {
+  background: url(//drytechindia.com/wp-content/themes/wp-store-child/css/../images/services/natural-colorant.jpg)
+    no-repeat center;
+  left: 0;
+  bottom: 0;
+}
+
+@media only screen and (min-width: 767px) {
+  .main-outer .b-2 .service-expand {
+    left: auto;
+    right: 0;
+    bottom: auto;
+    top: 0;
+  }
+}
+
+.main-outer .b-5 .service-expand {
+  background: url(//drytechindia.com/wp-content/themes/wp-store-child/css/../images/services/dietary-fibers.jpg)
+    no-repeat center;
+  background-size: cover;
+  right: 0;
+  bottom: 0;
+}
+/* 
+@media only screen and (min-width: 1024px) {
+  .service-expand:hover {
+    padding: 60px;
+  }
+} */
+
+@media only screen and (min-width: 767px) {
+  .service-expand:hover {
+    width: 200%;
+    height: 200%;
+    /* padding: 40px; */
+    z-index: 99;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .service-expand:hover .service-title {
+    position: relative;
+    top: auto;
+    text-align: left;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    margin-bottom: 5px;
+  }
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+/* a:hover,
+a:active {
+  outline: 0;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: inherit;
+  text-decoration: none;
+} */
+
+@media only screen and (min-width: 767px) {
+  .service-expand:hover h4 {
+    /* text-align: left; */
+    color: #202020;
+    padding: 30px 40px 0px;
+    margin-bottom: 0;
+    font-size: 1.6em;
+  }
+
+  .service-expand:hover .more-content {
+    display: block;
+    width: 100%;
+    overflow: visible;
+  }
+
+  .service-expand:hover p {
+    /* display: block; */
+    padding: 0 40px;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .main-outer .b-3 .service-expand:hover, .main-outer .b-4 .service-expand:hover {
+    height: 100%;
+  }
+
+  .main-outer .b-6 .service-expand:hover {
+    width: 100%;
+  }
+
+  .main-outer .b-8 .service-expand:hover {
+    width: 100%;
+  }
+
+  .main-outer .b-5 .service-expand:hover {
+    width: 100%;
+  }
+}
